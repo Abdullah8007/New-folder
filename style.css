@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 * {
     margin: 0;
@@ -32,8 +31,250 @@
     align-items: center;
     justify-content: space-between;
     letter-spacing: .5px;
+    border: 1px solid #93a12a;
+    height: 75px;
 }
 
 .container-fluid .sub-header .urdu-name p {
-    font-family: 'Noto Nastaliq Urdu', serif;
+    font-size: xx-large;
+}
+
+/* English Message Start */
+
+.container-fluid .messages .eng-msg {
+    height: 75px;
+    border: 1px solid #93a12a;
+}
+
+.container-fluid .messages .eng-msg h2 {
+    text-align: center;
+    letter-spacing: .5px;
+    margin-top: 15px;
+}
+
+.container-fluid .messages .eng-msg p {
+    position: absolute;
+    right: 0;
+    transform: rotate(-90deg);
+    top: 195.5px;
+    background: aqua;
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+/* English Mwssage End */
+
+/* Arabic Message Start */
+
+.container-fluid .messages .arabic-msg {
+    height: 75px;
+    border: 1px solid #93a12a;
+}
+
+.container-fluid .messages .arabic-msg h2 {
+    text-align: center;
+    letter-spacing: .5px;
+    margin-top: 15px;
+}
+
+.container-fluid .messages .arabic-msg p {
+    position: absolute;
+    right: 0;
+    transform: rotate(-90deg);
+    top: 270px;
+    background: lightgreen;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* Arabic Message End */
+
+/* Urdu Message Start */
+
+.container-fluid .messages .urdu-msg {
+    height: 75px;
+    border: 1px solid #93a12a;
+}
+
+.container-fluid .messages .urdu-msg h2 {
+    text-align: center;
+    letter-spacing: .5px;
+    margin-top: 15px;
+}
+
+.container-fluid .messages .urdu-msg p {
+    position: absolute;
+    right: 0;
+    transform: rotate(-90deg);
+    top: 345.5px;
+    background: mediumpurple;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Urdu Message End */
+
+/* Hindi Message Start */
+
+.container-fluid .messages .hindi-msg {
+    height: 75px;
+    border: 1px solid #93a12a;
+}
+
+.container-fluid .messages .hindi-msg h2 {
+    text-align: center;
+    letter-spacing: .5px;
+    margin-top: 15px;
+}
+
+.container-fluid .messages .hindi-msg p {
+    position: absolute;
+    right: 0;
+    transform: rotate(-90deg);
+    top: 420px;
+    background: deeppink;
+    padding-left: 15px;
+    padding-right: 17px;
+}
+
+/* Hindi Message End */
+
+/* Marathi Message Start */
+
+.container-fluid .messages .marathi-msg {
+    height: 75px;
+    border: 1px solid #93a12a;
+}
+
+.container-fluid .messages .marathi-msg h2 {
+    text-align: center;
+    letter-spacing: .5px;
+    margin-top: 15px;
+}
+
+.container-fluid .messages .marathi-msg p {
+    position: absolute;
+    right: 0;
+    transform: rotate(-90deg);
+    top: 495px;
+    background: sandybrown;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+/* Marathi Message End */
+
+/* Gujarati Message Start */
+
+.container-fluid .messages .gujarati-msg {
+    height: 75px;
+    border: 1px solid #93a12a;
+}
+
+.container-fluid .messages .gujarati-msg h2 {
+    text-align: center;
+    letter-spacing: .5px;
+    margin-top: 15px;
+}
+
+.container-fluid .messages .gujarati-msg p {
+    position: absolute;
+    right: 0;
+    transform: rotate(-90deg);
+    top: 570px;
+    background: cornflowerblue;
+}
+
+/* Gujarati Message End */
+
+/* Assamese Message Start */
+
+.container-fluid .messages .assamese-msg {
+    height: 75px;
+    border: 1px solid #93a12a;
+}
+
+.container-fluid .messages .assamese-msg h2 {
+    text-align: center;
+    letter-spacing: .5px;
+    margin-top: 15px;
+}
+
+.container-fluid .messages .assamese-msg p {
+    position: absolute;
+    right: 0;
+    transform: rotate(-90deg);
+    top: 645px;
+    background: chartreuse;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 13px;
+}
+
+/* Assamese Message End */
+
+/* Tamil Message Start */
+
+.container-fluid .messages .tamil-msg {
+    height: 75px;
+    border: 1px solid #93a12a;
+}
+
+.container-fluid .messages .tamil-msg h2 {
+    text-align: center;
+    letter-spacing: .5px;
+    margin-top: 15px;
+}
+
+.container-fluid .messages .tamil-msg p {
+    position: absolute;
+    right: 0;
+    transform: rotate(-90deg);
+    top: 720px;
+    background: gainsboro;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Tamil Message End */
+
+/* Malyalam Message Start */
+
+.container-fluid .messages .malyalam-msg {
+    height: 75px;
+    border: 1px solid #93a12a;
+}
+
+.container-fluid .messages .malyalam-msg h2 {
+    text-align: center;
+    letter-spacing: .5px;
+    margin-top: 15px;
+}
+
+.container-fluid .messages .malyalam-msg p {
+    position: absolute;
+    right: 0;
+    transform: rotate(-90deg);
+    top: 795px;
+    background: brown;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 13px;
+}
+
+/* Malyalam Message End */
+
+.container-fluid .footer {
+    text-align: center;
+    color: #93a12a;
+    cursor: pointer;
+}
+
+.container-fluid .footer a {
+    color: #93a12a;
+    text-decoration: none;
 }
